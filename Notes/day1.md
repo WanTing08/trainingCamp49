@@ -23,3 +23,33 @@ public int search(int[] nums, int target){
 # 27. Remove Element
 ## **Solution**
 
+## **Code**
+```
+//Brute Force
+public int removeElement(int[] nums, int val){
+  int k = 0;
+  for(int i = 0; i < nums.length; i++){
+    if(nums[i] != val){
+      nums[k] = nums[i];
+      k++;
+    }
+  }
+  return k;
+}    
+```
+
+```
+//two pointer
+public int removeElement(int[] nums, int val){
+  int i = 0;
+  for(int j = 0; j < nums.length; j++){
+    if(nums[j] != val){
+      nums[i] = nums[j];
+      i++;
+    }
+  }
+  return i;
+}
+```
+
+
