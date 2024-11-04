@@ -2,7 +2,7 @@
 ## **Solution** 
 The Binary Search is the best way to solve the problem because the time cpmplexity will be O(logn). Using two index _"left"_ and _"right"_ as the start and end of the array. The key idea is to calculate the middle index, compare the _nums[mid]_ with the target, and adjust _"left"_ and _"right"_ based on whether the target is greater or smaller than the _nums[mid]_.
 
-## **Code:**
+## **Code**
 ```
 public int search(int[] nums, int target){
 
@@ -19,4 +19,7 @@ public int search(int[] nums, int target){
   return -1;
 }
 ```
+--------
+# 27. Remove Element
+## **Solution**
 
