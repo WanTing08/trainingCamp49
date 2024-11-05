@@ -14,3 +14,9 @@ public Linkedlist removeElements(ListNode head, int val){
   }
   return dummy.next;
 }
+```
+
+----------
+
+
+
