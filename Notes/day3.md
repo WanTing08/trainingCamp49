@@ -18,5 +18,12 @@ public Linkedlist removeElements(ListNode head, int val){
 
 ----------
 
+# 707. Desgin Linked List
+## Code
+
+---------
+
+# 206. Reverse Linked List
+## Solution
 
 
